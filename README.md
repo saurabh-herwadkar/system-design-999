@@ -157,6 +157,25 @@ Components like UI, Compute and persistence will be on seperate logical instance
 
 ### Monolith v/s Micro sevices
 
+- One cannot talk about Micro services lest you compare it with a Monolith its ancestor
+- Monolith would generally mean all the code for various functionalities were included in one code base talking to one database
+- There was a singular build process and for the smallest change entire code base would be deployed. We have seen builds which took about 20 minutes to complete for a small UI change
+- Micro services beat this problem by decomposing services into smaller individual projects each serving a functionality. They may be segregated domain wise based on domain driven design
+- Each Micro service has its own code base, own deployment pipeline, serves a specific functinality. It may have its ownn database or share a common database
+
+Advantages:
+
+- Each project is deployed fast and independently for a small change
+- For a change in a specific area, indivdual project deployment is sufficient, all projects need not be deployed
+- Deployement are surely faster and independent
+- All services talk to each other using HTTP with a specific API contrat which does not change
+
+Disadvantages:
+
+- Increase complexity of the system
+- If engineers do not coordinate with each other then there could be some confusion and chaos
+ 
+
 
 ### Virtual machine (VM) v/s Containers
 
@@ -173,6 +192,8 @@ Components like UI, Compute and persistence will be on seperate logical instance
 ### DNS
 
 ### CDN
+
+### Domain driven design (DDD)
 
 
 ## Client
