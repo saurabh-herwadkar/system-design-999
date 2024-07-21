@@ -78,6 +78,9 @@ A few examples of components are
 | Persistence | MySql database, Cassandra |
 |Orchestration| Queue, Event bus, Cache|
 
+![Worfklows and components](https://github.com/saurabh-herwadkar/system-design-999/blob/main/images/Worfklows%20and%20components.png)
+
+
 # Logical component
 
 **A**t the onset I need to clarify the concept of Logical component 
