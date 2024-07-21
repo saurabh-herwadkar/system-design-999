@@ -14,10 +14,9 @@
 **H**istorically a lot of names have been used to call different components i prefer using a 
 few terms which have become most popular post 2020 times
 
--**Client** - Represents a UI component visible to the end user, could be a mobile App or UI using React js, etc
--**Compute**- Represents back end processing, such as services, cache and queue, generally of no significance to the end user
--**Persistence** - Something which can store data for long term (Basically databases)
-
+- **Client** - Represents a UI component visible to the end user, could be a mobile App or UI using React js, etc
+- **Compute**- Represents back end processing, such as services, cache and queue, generally of no significance to the end user
+- **Persistence** - Something which can store data for long term (Basically databases)
 
 
 # Abstract concepts
