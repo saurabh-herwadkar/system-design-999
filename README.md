@@ -164,8 +164,13 @@ Components like UI, Compute and persistence will be on seperate logical instance
 ### Disaster recovery
 
 
-### DNS
+### OSI model
 
+### TCP v/s UDP
+
+### IP
+
+### DNS
 
 ### CDN
 
@@ -188,6 +193,11 @@ Components like UI, Compute and persistence will be on seperate logical instance
 ### HTTP
 
 ### SSL (oh you meant TLS)
+
+### Load balancing
+
+
+### Auto scaling
 
 ### API gateway
 
@@ -240,19 +250,45 @@ Components like UI, Compute and persistence will be on seperate logical instance
 
 ### NoSql databases
 
-###Sharding
+### Sharding
 
-###Database replication
+### Database replication
 
+### Database federation
 
-###Database federation
+### Locks
+
+### Transactions and distributed transactions
+
+### Datalake and DataWarehouse
+
+### Data analytics
 
 
 
 
 ## Agile 
 
+### Kanbahn
+
+### Scrum
+
+### SAFE
+
+### aRT
+
+
+
 ## DevOps
+
+### Philosophy
+
+### Key practices
+
+### 
+
+
+
 
 
 
