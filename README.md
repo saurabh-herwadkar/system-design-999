@@ -13,6 +13,20 @@
 
 # Abstract concepts
 
+# Concept , features and tools
+
+**W**henever i work with an engineer to discuss an idea i use the above three key words to helpp build a mental model
+
+- **Concept** - Understand the underlying concept at an abstract level in a technology agnostice manner
+- **Features** - What are the properties and features of that concept
+- **Tools** - What are the industry grade tools which help implement this concept
+
+To take the example of a queue mechanism 
+
+- **Concept** - Queue - A mechanism where a publisher can send messages. A consumer can consume these messages asynchronously
+- **Features** -Publisher | Subscriber | Asynchronous | Decoupled | FIFO queues | Dead letter queues | Message retention
+- **Tools** - Active MQ, Rabbit MQ, AWS SQS
+
 # Worfklows and components
 
 **N**ow for this definition I have leaned a bit on AWS take on the above two terms
