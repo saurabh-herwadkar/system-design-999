@@ -184,12 +184,16 @@ Disadvantages:
 
 It is very difficult to describe virtual machines and containers in isolations.They are exlpained best when compared with each other
 
+![Virtual machine (VM) vs Containers](https://github.com/user-attachments/assets/f3b151a9-07e8-4858-b1e3-2302b74933de)
+
+
 ###Virtual machines
 
 - They are fundamentally software programs which **can run multiple guest operating systems on a single physical host**
 - It runs a guest operating system on top of a software called **Hypervisor** which is nothing but in itself an operating system types software
 - Virtual machines do **hardware simulation** where they get access to the hardware resources via the way of the Hypervisor
 - VMs appeared around in the 2000s and had settled in a matured manner by 2010
+- VM are generally around 2-8 GB in size and since they do hardware virtulization they take minutes to boot
 
 Advantages
 
@@ -206,6 +210,8 @@ Advantages
 - The entire program code base plus any library dependencies can be isolated and packaged as a container image
 - Once packaged many container instances can be created from the container image
 - Due to its operational nature, container instances are best buddies with micro services, where the micro service code and any dependencies can be packaged as a container image and deployed in an auto scaling types configuration
+- Containers appeared on the scene at around 2005 and had matured and settled in by 2015
+- Containers  are generally around 200-600 MB in size and since they do only logical OS level isolation they take only seconds to boot - possibly 30 s max
 
 
 ### Disaster recovery
