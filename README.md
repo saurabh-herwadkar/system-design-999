@@ -9,9 +9,9 @@
 - Mainly technology agnostic but in some cases technologies are used for example and illustration purposes
 - Concepts are generally post 2020. Any references to previous architectures is just for comparison purposes
 
-## A few concepts unique to this article
+# A few concepts unique to this article
 
-**H**istorically a lot of name shave been used to call different components i prefer using a 
+**H**istorically a lot of names have been used to call different components i prefer using a 
 few terms which have become most popular post 2020 times
 
 **Client** - Represents a UI component visible to the end user, could be a mobile App or UI using React js, etc
