@@ -5,15 +5,52 @@
 - This document is my take on concepts around system design
 - This is in no ways a doucment only meant for interview purposes
 - Aim is to educate budding engineers and wannabe architects on concepts around system design
-- Concepts are generally post 2020. Any references to previous architectures is jsut for comparison purposes
+- Attempt is to highlight patterns instead of specific technologies ro build a mental model of the concept
+- Mainly technology agnostic but in some cases technologies are used for example and illustration purposes
+- Concepts are generally post 2020. Any references to previous architectures is just for comparison purposes
 
 
 
 # Abstract concepts
 
+# Worfklows and components
+
+**N**ow for this definition I have leaned a bit on AWS take on the above two terms
+
+[https://aws.amazon.com/what-is/workflow/]
+
+A **workflow** is a business process which achieves a business objective. 
+- It brings value
+- It surely incurrs a cost
+- Yet reduces overall costs
+- Increases profits
+
+A **component** is a logical unit of software
+Many such **components** work together to complete a **Workflow**
+
+For example a UI client, microservice and database work together to achieve a user registration workflow
+
+
+
+# Logical instances
+
+**A**t the onset I need to clarify the concept of Logical instances 
+
+Logical instances is basically a component
+(code + runtime + OS ) running on either a Container , VM or a Physical instance (Quite unlikely but possible)
+A logical instance may represent a Client component , or a compute component or a persistence component
+
+For example
+
+UI - A UI project or Mobile application
+Compute - A container running a micro service
+Persistence - A Mysql database
+Orchestration - Queue, Event bus
+
+
 # Polyglot persistence
 
-A misconception is that we should ideally use only one persistence (database) technique for our information system
+**A** misconception is that we should ideally use only one persistence (database) technique for our information system
 Different use cases (user stories) may ask for different types of database solutions within the same workflow
 For example
 1. Finanical transactions may require a Relational database with strong ACID properties (eg Oracle)
@@ -26,6 +63,21 @@ Modern engineers and budding Architects should be open to use different databse 
 1. Fit for purpose usage of database technologies as per us case
 2. Mainly **Breaking** of the previous notion that there is only one database solution pre workflow
 3. Cloud technologies and managed services make provisioning of these databases very easy
+
+# Polyglot programming
+
+**S**imilar to the concept of Polyglot persistence above different use cases may demand for different programming languages
+Engineers should be open to using different programming languages in different components in different Micro services
+
+For example
+
+1. A Payment service may work best in Java Spring boot Spring MVC Container configuration + Oracle relation database (ACID)
+2. An OTP generation service may fit good in Python 3, Lambda Serverless  + Mongo DB (BASE)
+
+**A** few key features are
+
+1. Use seperate programming language for a different use case (Possibly micro service)
+2. Seperate programming languages would mean the associated underlying run times and a compatible DevOps pipeline
 
 
 
