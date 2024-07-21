@@ -163,8 +163,32 @@ Components like UI, Compute and persistence will be on seperate logical instance
 
 # Client
 
+# Mobile app
+
+
+# Front end
+
+
+# Micro front ends
+
+# Backend For Frontend (BFF) pattern
+
 
 # Compute
+
+# API gateway
+
+
+# REST v/s GraphQ: v/s gRPC
+
+
+# Long staying HTTP connections
+
+## Long polling
+ 
+## Websockets
+
+## Server side events (SSE)
 
 
 # Orchestration
