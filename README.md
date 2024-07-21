@@ -161,6 +161,15 @@ Components like UI, Compute and persistence will be on seperate logical instance
 ### Virtual machine (VM) v/s Containers
 
 
+### Disaster recovery
+
+
+### DNS
+
+
+### CDN
+
+
 ## Client
 
 ### Mobile app
@@ -188,17 +197,58 @@ Components like UI, Compute and persistence will be on seperate logical instance
 
 ### Long staying HTTP connections
 
-####Long polling
+### Long polling
  
-####Websockets
+### Websockets
 
-####Server side events (SSE)
+### Server side events (SSE)
+
+### Service discovery
+
+### Caching
+
+### Serverless
 
 
 ## Orchestration
 
+### Messagebroker
+
+### Event bus
+
+### Streaming architecture
+
+### Event friven architecture EDA
+
+### SLA SLO SLI
+
 
 ## Persistence
+
+### Relational databases
+
+### Keys
+
+### Normalization and Denormalization
+
+
+### ACID
+
+### BASE
+
+### CAP and PARCELC
+
+### NoSql databases
+
+###Sharding
+
+###Database replication
+
+
+###Database federation
+
+
+
 
 ## Agile 
 
