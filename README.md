@@ -129,6 +129,7 @@ For example
 2. Seperate programming languages would mean the associated underlying run times and a compatible DevOps pipeline
 
 
+![Polyglot](https://github.com/saurabh-herwadkar/system-design-999/blob/main/images/Polyglot.png)
 
 
 # Distributed systems
