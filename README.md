@@ -187,7 +187,7 @@ It is very difficult to describe virtual machines and containers in isolations.T
 ![Virtual machine (VM) vs Containers](https://github.com/user-attachments/assets/f3b151a9-07e8-4858-b1e3-2302b74933de)
 
 
-###Virtual machines
+### Virtual machines
 
 - They are fundamentally software programs which **can run multiple guest operating systems on a single physical host**
 - It runs a guest operating system on top of a software called **Hypervisor** which is nothing but in itself an operating system types software
