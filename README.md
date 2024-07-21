@@ -4,10 +4,19 @@
 
 - This document is my take on concepts around system design
 - This is in no ways a doucment only meant for interview purposes
-- Aim is to educate budding engineers and wannabe architects on concepts around system design
+- Aim is to educate budding engineers and wannabe architects on concepts around system design, but helps with interviews too
 - Attempt is to highlight patterns instead of specific technologies ro build a mental model of the concept
 - Mainly technology agnostic but in some cases technologies are used for example and illustration purposes
 - Concepts are generally post 2020. Any references to previous architectures is just for comparison purposes
+
+## A few concepts unique to this article
+
+**H**istorically a lot of name shave been used to call different components i prefer using a 
+few terms which have become most popular post 2020 times
+
+**Client** - Represents a UI component visible to the end user, could be a mobile App or UI using React js, etc
+**Compute** - Represents back end processing, such as services, cache and queue, generally of no significance to the end user
+**Persistence** - Something which can store data for long term (Basically databases)
 
 
 
@@ -146,13 +155,20 @@ Components like UI, Compute and persistence will be on seperate logical instance
 - This reduces the total points of failure and mitigates against a single point of failure (SPF)
 - Having components on different logical isntances ensures that there is optimum usage of resources
 - Addition or removal of resources can be managed by concepts such as Auto scaling 
-  
+
+# Monolith v/s Micro sevices
 
 
-# UI / UX
+# Virtual machine (VM) v/s Containers
 
 
-# Back end and compute
+# Client
+
+
+# Compute
+
+
+# Orchestration
 
 
 # Persistence
