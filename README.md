@@ -13,6 +13,28 @@
 
 # Abstract concepts
 
+# The holy SixTrait of technology
+
+Any technology uses underlying infrastructure and runtime
+Any logical component (Refer below section [Worfklows and components]) needs the below to be able to do something meaningful
+
+
+**Hardware **
+
+- Processor - CPU or GPU
+- Memory - RAM
+- Storage - SSD or HDD
+- Input/Output (IO) - Network cards, Display cards
+
+**Software**
+
+- Operating system | Kernel - Some variant of Linux or Windows which gives access to the above 4 mentioned hardware components via 
+- Runtime - The underlying installed programmin softwares - For example Python 3.9, PIP and other python libraries
+
+  To add to the above we have the code base which executes some bsuiness functionality and cannot run
+  without the blessings of the above mentioned "Sixtrait"
+
+
 # Concept , features and tools
 
 **W**henever i work with an engineer to discuss an idea i use the above three key words to helpp build a mental model
