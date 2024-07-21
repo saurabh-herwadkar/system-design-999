@@ -1,4 +1,4 @@
-##System design 999
+#System design 999
 
 ## Context
 
@@ -21,7 +21,7 @@ few terms which have become most popular post 2020 times
 
 ## Abstract concepts
 
-# The holy SixTrait of technology
+### The holy SixTrait of technology
 
 Any technology uses underlying infrastructure and runtime
 Any logical component (Refer below section [Worfklows and components]) needs the below to be able to do something meaningful
@@ -46,7 +46,7 @@ Any logical component (Refer below section [Worfklows and components]) needs the
   without the blessings of the above mentioned "Sixtrait"
 
 
-# Concept , features and tools
+### Concept , features and tools
 
 **W**henever i work with an engineer to discuss an idea i use the above three key words to helpp build a mental model
 
@@ -60,7 +60,7 @@ To take the example of a queue mechanism
 - **Features** -Publisher | Subscriber | Asynchronous | Decoupled | FIFO queues | Dead letter queues | Message retention
 - **Tools** - Active MQ, Rabbit MQ, AWS SQS
 
-# Worfklows and components
+### Worfklows and components
 
 **N**ow for this definition I have leaned a bit on AWS take on the above two terms
 
@@ -89,7 +89,7 @@ A few examples of components are
 ![Worfklows and components](https://github.com/saurabh-herwadkar/system-design-999/blob/main/images/Worfklows%20and%20components.png)
 
 
-# Logical component
+### Logical component
 
 **A**t the onset I need to clarify the concept of Logical component 
 
@@ -105,7 +105,7 @@ Persistence - A Mysql database
 Orchestration - Queue, Event bus
 
 
-# Polyglot persistence
+### Polyglot persistence
 
 **A** misconception is that we should ideally use only one persistence (database) technique for our information system
 Different use cases (user stories) may ask for different types of database solutions within the same workflow
@@ -140,7 +140,7 @@ For example
 ![Polyglot](https://github.com/saurabh-herwadkar/system-design-999/blob/main/images/Polyglot.png)
 
 
-# Distributed systems
+### Distributed systems
 
 Contrary to the previous concept of having all components on a single machine and probably in a monolith
 Distributed systems by default will have their components on seperate instances.
@@ -155,40 +155,44 @@ Components like UI, Compute and persistence will be on seperate logical instance
 - Having components on different logical isntances ensures that there is optimum usage of resources
 - Addition or removal of resources can be managed by concepts such as Auto scaling 
 
-# Monolith v/s Micro sevices
+### Monolith v/s Micro sevices
 
 
-# Virtual machine (VM) v/s Containers
+### Virtual machine (VM) v/s Containers
 
 
 ## Client
 
-# Mobile app
+### Mobile app
 
 
-# Front end
+### Front end
 
 
-# Micro front ends
+### Micro front ends
 
-# Backend For Frontend (BFF) pattern
+### Backend For Frontend (BFF) pattern
 
 
 ## Compute
 
-# API gateway
+### HTTP
+
+### SSL (oh you meant TLS)
+
+### API gateway
 
 
-# REST v/s GraphQ: v/s gRPC
+### REST v/s GraphQ: v/s gRPC
 
 
-# Long staying HTTP connections
+### Long staying HTTP connections
 
-#Long polling
+####Long polling
  
-#Websockets
+####Websockets
 
-#Server side events (SSE)
+####Server side events (SSE)
 
 
 ## Orchestration
