@@ -18,8 +18,7 @@
 Any technology uses underlying infrastructure and runtime
 Any logical component (Refer below section [Worfklows and components]) needs the below to be able to do something meaningful
 
-
-
+https://github.com/saurabh-herwadkar/system-design-999/blob/main/images/The%20holy%20SixTrait%20of%20technology.png
 
 
 **Hardware **
