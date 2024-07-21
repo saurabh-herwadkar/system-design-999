@@ -182,6 +182,31 @@ Disadvantages:
 
 ### Virtual machine (VM) v/s Containers
 
+It is very difficult to describe virtual machines and containers in isolations.They are exlpained best when compared with each other
+
+###Virtual machines
+
+- They are fundamentally software programs which **can run multiple guest operating systems on a single physical host**
+- It runs a guest operating system on top of a software called **Hypervisor** which is nothing but in itself an operating system types software
+- Virtual machines do **hardware simulation** where they get access to the hardware resources via the way of the Hypervisor
+- VMs appeared around in the 2000s and had settled in a matured manner by 2010
+
+Advantages
+
+- Best possible utilization of a servers resources by running multiple Virtual machines on the server and avoiding wastage of hardware resources
+- Ability to stop, start or even shift virtual machines as per requirement
+- Cost optimization
+
+
+### Containers
+
+- Containers make operating system level isolation for a program and make it appear as if the program is the only machine running on the OS
+- It works on top of a software called container engine (Example docker engine)
+- A container engine allows fully isolated access for the program to the underlying OS Kernel calls which in turn gives isolated access to Hardware components
+- The entire program code base plus any library dependencies can be isolated and packaged as a container image
+- Once packaged many container instances can be created from the container image
+- Due to its operational nature, container instances are best buddies with micro services, where the micro service code and any dependencies can be packaged as a container image and deployed in an auto scaling types configuration
+
 
 ### Disaster recovery
 
