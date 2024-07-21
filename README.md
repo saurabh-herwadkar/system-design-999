@@ -28,17 +28,24 @@ A **workflow** is a business process which achieves a business objective.
 A **component** is a logical unit of software
 Many such **components** work together to complete a **Workflow**
 
-For example a UI client, microservice and database work together to achieve a user registration workflow
+For example a UI client, microservice and database **components** work together to achieve a user registration **workflow**
 
+A few examples of components are
 
+| Component Category | Example           
+| :-------------:|:-------------:| 
+| Client | IOS app, Android app, Reactive app, Progressive web app, Hybrid app | 
+| Compute | Microservice, Lambda | 
+| Persistence | MySql database, Cassandra |
+|Orchestration| Queue, Event bus, Cache|
 
-# Logical instances
+# Logical component
 
-**A**t the onset I need to clarify the concept of Logical instances 
+**A**t the onset I need to clarify the concept of Logical component 
 
-Logical instances is basically a component
+A component is basically a
 (code + runtime + OS ) running on either a Container , VM or a Physical instance (Quite unlikely but possible)
-A logical instance may represent a Client component , or a compute component or a persistence component
+A logical component may represent a Client component , or a compute component or a persistence component
 
 For example
 
