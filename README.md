@@ -1,4 +1,4 @@
-# System design 999
+###System design 999
 
 ## Context
 
@@ -9,7 +9,7 @@
 - Mainly technology agnostic but in some cases technologies are used for example and illustration purposes
 - Concepts are generally post 2020. Any references to previous architectures is just for comparison purposes
 
-# A few concepts unique to this article
+## A few concepts unique to this article
 
 **H**istorically a lot of names have been used to call different components i prefer using a 
 few terms which have become most popular post 2020 times
@@ -19,7 +19,7 @@ few terms which have become most popular post 2020 times
 - **Persistence** - Something which can store data for long term (Basically databases)
 
 
-# Abstract concepts
+## Abstract concepts
 
 # The holy SixTrait of technology
 
@@ -161,7 +161,7 @@ Components like UI, Compute and persistence will be on seperate logical instance
 # Virtual machine (VM) v/s Containers
 
 
-# Client
+## Client
 
 # Mobile app
 
@@ -174,7 +174,7 @@ Components like UI, Compute and persistence will be on seperate logical instance
 # Backend For Frontend (BFF) pattern
 
 
-# Compute
+## Compute
 
 # API gateway
 
@@ -184,21 +184,21 @@ Components like UI, Compute and persistence will be on seperate logical instance
 
 # Long staying HTTP connections
 
-## Long polling
+#Long polling
  
-## Websockets
+#Websockets
 
-## Server side events (SSE)
-
-
-# Orchestration
+#Server side events (SSE)
 
 
-# Persistence
+## Orchestration
 
-# Agile 
 
-# DevOps
+## Persistence
+
+## Agile 
+
+## DevOps
 
 
 
