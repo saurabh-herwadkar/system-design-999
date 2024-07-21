@@ -157,6 +157,9 @@ Components like UI, Compute and persistence will be on seperate logical instance
 
 ### Monolith v/s Micro sevices
 
+![Monolith vs Micro sevices](https://github.com/saurabh-herwadkar/system-design-999/blob/main/images/Monolith%20vs%20Micro%20sevices.png)
+
+
 - One cannot talk about Micro services lest you compare it with a Monolith its ancestor
 - Monolith would generally mean all the code for various functionalities were included in one code base talking to one database
 - There was a singular build process and for the smallest change entire code base would be deployed. We have seen builds which took about 20 minutes to complete for a small UI change
