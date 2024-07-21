@@ -19,7 +19,7 @@ Components like UI, Compute and persistence will be on seperate logical instance
 **A** few key features are
 
 - In modern achitectures (Post 2020) by default your system will be distributed
-- Communication betwweh these components will be mainly using HTTP(s) though  other protocls may apply
+- Communication betwweh these components will be mainly using HTTP(s) though  other protocols may apply
 - This surely increase the complexity of the system overall
 - This reduces the total points of failure and mitigates against a single point of failure (SPF)
   
