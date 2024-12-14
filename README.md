@@ -1,11 +1,11 @@
-#System design 999
+# System design 999
 
 ## Context
 
 - This document is my take on concepts around system design
 - This is in no ways a doucment only meant for interview purposes
 - Aim is to educate budding engineers and wannabe architects on concepts around system design, but helps with interviews too
-- Attempt is to highlight patterns instead of specific technologies ro build a mental model of the concept
+- Attempt is to highlight patterns instead of specific technologies to build a mental model of the concept
 - Mainly technology agnostic but in some cases technologies are used for example and illustration purposes
 - Concepts are generally post 2020. Any references to previous architectures is just for comparison purposes
 
