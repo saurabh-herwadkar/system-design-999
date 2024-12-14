@@ -9,6 +9,34 @@
 - Mainly technology agnostic but in some cases technologies are used for example and illustration purposes
 - Concepts are generally post 2020. Any references to previous architectures is just for comparison purposes
 
+## Architecture v/s Engineering
+
+What is achitecture? What is engineering?
+Some say they are the same, some say they are distinct, sme feel they overlap
+
+Here are my thoughs. They surely have some overlap
+
+### Architecture - Patterns + Technology
+
+Patterns are reoccuring concerns and solutions in the technology world.
+Technology is used to impement the above pattern
+
+For example - Content delivery network
+The pattern is based around caching. It is implemented using technologies like AWS Cloudfront
+
+### Engineering - Implementation patterns
+
+Once the above architecture is defined then Engineering defines patterns around the implementation of it.
+This includes but not restricted to
+
+1. Git strategies
+2. Coding standards
+3. Naming conventiones for components
+4. Build and Deploy
+5. DevOps
+6. SRE ...
+
+
 ## A few concepts unique to this article
 
 **H**istorically a lot of names have been used to call different components i prefer using a 
